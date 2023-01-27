@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>números pares entre 100 e 1.</h1>
+    <div id="cem-um"></div>
+
+    <script>
+        let texto = "";
+        let num = 102;
+        while (num > 2) {
+            num = num - 2;
+            texto += "</br>" + num;
+            document.getElementById("cem-um").innerHTML = texto;
+        }
+    </script>
+</body>
+</html>

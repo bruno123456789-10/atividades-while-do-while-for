@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>números de 1 a 10, apresentando as somas parciais e, no final, o total.</h1>
+    <div id="texto"></div>
+
+    <script>
+        let numero = 1;
+        let numeroPSoma = 2;
+        let texto = "";
+        while (numeroPSoma < 11) {
+            numero = numero + numeroPSoma;
+            texto += "O numero é " + numero + ". </br>";
+            numeroPSoma++;
+            document.getElementById("texto").innerHTML = texto;
+        }
+    </script>
+</body>
+</html>
